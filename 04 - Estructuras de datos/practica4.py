@@ -114,3 +114,4 @@ for values in mi_primer_diccionario_21_4.values():
 print("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA")
 for var_items, var_valore in mi_primer_diccionario_21_4.items():
     print("keys", var_items, "Y", var_valore,"estos los valores")
+
