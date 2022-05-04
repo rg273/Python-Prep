@@ -77,7 +77,7 @@ print("El numero que mas se repite es el",lamaspesada,"y se repite", cuantas_vec
 # print(convertir_grados(grados,medida_origen,medida_final))
 
          
-7
+
 def fatorial (numero):
 
     if numero < 0 or type(numero) != int:
@@ -86,7 +86,7 @@ def fatorial (numero):
         return 1
     return numero * fatorial(numero - 1)
 
-print(fatorial(-1.2))
+print(fatorial(-12))
 
 
 def esNegativo_O_positivo (number):
