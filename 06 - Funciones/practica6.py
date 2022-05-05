@@ -1,10 +1,9 @@
-#1
 from math import factorial
 from re import U
 import re
 
+#1
 
-# numerorecibed = int(input("Elige un numero:  "))
 # def esprimo(parametor):
 #     esprimo = 0
 #     for i in range(2,parametor):
@@ -14,41 +13,34 @@ import re
 #         return True
 #     elif(esprimo >= 1):
 #          return False
-
-# print(esprimo(numerorecibed))
-
-#2
-
+# #2
 # lis = [12,3,4,5,6,7,8,9,20,21,22,23,24,25,26,27,28,229,230,231,232,233]
 
 # def haciendo_call_back(lista):
 #     a = 0
 #     milista_primos = []
 #     while(a < len(lista)):
-#         if(esprimo(lista[a]) == True ):
+#         if esprimo(lista[a]):
 #             milista_primos.append(lista[a])
-#         a = a + 1
+#         a+=1
 #     return milista_primos
 
 # print(haciendo_call_back(lis))
 
 #3
-"""lista_de_repetidos = [2,2,2,3,4,5,6,76,76,7,7,8,9,0,8,6,5,4,3,2,1,2,4,5,6,7,8,6,4,3,2,24,5,6,7,9,6]
-concepto = [2,4,2,4,2,2,4]
-lamaspesada = 0
-cuantas_veces_lo_hizo = 0
-concepto.sort() 
-o = 1
-count = 1
-while (o < len(concepto)):  #recoremos todo el list
-    if concepto[o] == concepto[o - 1]:  #verificamos que el siguiente sea igual para sumar mas 1
-        count = count + 1
-    if (count > cuantas_veces_lo_hizo):     # guardamos y verificamos si hay otro mayor 
-        cuantas_veces_lo_hizo = count
-        lamaspesada = concepto[o]
-    o+=1
-print("El numero que mas se repite es el",lamaspesada,"y se repite", cuantas_veces_lo_hizo )
-"""
+#lista_de_repetidos = [2,2,2,3,4,5,6,76,76,7,7,8,9,0,8,6,5,4,3,2,1,2,4,5,6,7,8,6,4,3,2,24,5,6,7,9,6]
+
+#           - - - - - - -
+concepto = [2,2,2,2,4,6,6]
+
+
+
+
+#tenemos q iterar ,
+#tenemos q verificar en cada elemnt,
+#tenemos que agregar,
+
+
 #5
 
 # def convertir_grados (valor, medidadeorigen,medida_de_destino):
@@ -78,23 +70,41 @@ print("El numero que mas se repite es el",lamaspesada,"y se repite", cuantas_vec
 
          
 
-def fatorial (numero):
+# def fatorial (numero):
 
-    if numero < 0 or type(numero) != int:
-        return print("Elige un numero sin coma y psotivo")
-    if numero == 1:
-        return 1
-    return numero * fatorial(numero - 1)
+#     if numero < 0 or type(numero) != int:
+#         return print("Elige un numero sin coma y psotivo")
+#     if numero == 1:
+#         return 1
+#     return numero * fatorial(numero - 1)
 
-print(fatorial(-12))
+# print(fatorial(-12))
 
 
-def esNegativo_O_positivo (number):
-    if number < 0:
-        print("es negativo")
-    elif number == 0:
-        print("es neutro")
-    else: 
-        print("es positivo")
+# def esNegativo_O_positivo (number):
+#     if number < 0:
+#         print("es negativo")
+#     elif number == 0:
+#         print("es neutro")
+#     else: 
+#         print("es positivo")
 
-esNegativo_O_positivo(-10)
+# esNegativo_O_positivo(-10)
+
+"""
+lista_de_repetidos = [2,2,2,3,4,5,6,76,76,7,7,8,9,0,8,6,5,4,3,2,1,2,4,5,6,7,8,6,4,3,2,24,5,6,7,9,6]
+concepto = [2,4,2,4,2,2,4]
+lamaspesada = 0
+cuantas_veces_lo_hizo = 0
+concepto.sort() 
+o = 1
+count = 1
+while (o < len(concepto)):  #recoremos todo el list
+    if concepto[o] == concepto[o - 1]:  #verificamos que el siguiente sea igual para sumar mas 1
+        count = count + 1
+    if (count > cuantas_veces_lo_hizo):     # guardamos y verificamos si hay otro mayor 
+        cuantas_veces_lo_hizo = count
+        lamaspesada = concepto[o]
+    o+=1
+print("El numero que mas se repite es el",lamaspesada,"y se repite", cuantas_veces_lo_hizo )
+"""
